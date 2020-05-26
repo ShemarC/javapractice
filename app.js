@@ -52,7 +52,7 @@ function draw(userChoice, compChoice){
     const userChoice_div = document.getElementById(userChoice);
     userScore_span.innerHTML = userScore;
     userComp_span.innerHTML = compScore;
-    result_div.innerHTML = `${convertToWord(compChoice)} = ${convertToWord(userChoice)}. Its a draw.`; 
+    result_div.innerHTML = `${convertToWord(compChoice)} = ${convertToWord(userChoice)}. It's a draw.`; 
     userChoice_div.classList.add("gray-glow");
     setTimeout(() => userChoice_div.classList.remove("gray-glow"), 500);  
 }
